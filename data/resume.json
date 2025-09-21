@@ -1,0 +1,161 @@
+{
+  "roles": [
+    {
+      "title": "Jesus Christ Superstar",
+      "role": "Simon Zealotes/Superfan",
+      "group": "Theatre Raleigh ACT"
+    },
+    {
+      "title": "Mamma Mia!",
+      "role": "Donna Sheridan",
+      "group": "Broughton High School"
+    },
+    {
+      "title": "Oklahoma!",
+      "role": "Dance Captain/Dream Laurey/Ensemble",
+      "group": "Raleigh ACT"
+    },
+    {
+      "title": "The Crucible",
+      "role": "Abigail Williams",
+      "group": "Broughton High School"
+    },
+    {
+      "title": "Sweeney Todd: The Demon Barber of Fleet Street",
+      "role": "Dance Captain/Ensemble",
+      "group": "Raleigh ACT"
+    },
+    {
+      "title": "Six: Teen Edition",
+      "role": "Katherine Howard",
+      "group": "Raleigh ACT"
+    },
+    {
+      "title": "9 to 5: The Musical",
+      "role": "Doralee Rhodes",
+      "group": "Broughton High School"
+    },
+    {
+      "title": "Something Rotten!",
+      "role": "Bard Girl/Ensemble",
+      "group": "Raleigh ACT"
+    },
+    {
+      "title": "Polkadots: The Cool Kids Musical",
+      "role": "Penelope Square",
+      "group": "Broughton High School"
+    },
+    {
+      "title": "Heathers: The Musical",
+      "role": "Heather Chandler",
+      "group": "Raleigh ACT"
+    },
+    {
+      "title": "Mean Girls",
+      "role": "Taylor Wedell/Regina (Understudy)/Karen (Understudy)",
+      "group": "Broughton High School"
+    }
+  ],
+  "training": {
+    "acting": [
+      {
+        "group": "Capital Acting Company",
+        "location": "Broughton High School",
+        "time": "2023 - Present"
+      },
+      {
+        "group": "Teen Advanced Acting",
+        "location": "Moonlight Stage Company",
+        "time": "Spring 2025"
+      },
+      {
+        "group": "Sr. Pre-Professional Dept.",
+        "location": "NC Theater Conservatory",
+        "time": "Fall 2023"
+      }
+    ],
+    "dance": [
+      {
+        "group": "Broughton Dance Company",
+        "location": "Broughton High School",
+        "time": "2023 - Present"
+      },
+      {
+        "group": "Broughton Dance Ensemble",
+        "location": "Broughton High School",
+        "time": "2022 - 2023"
+      },
+      {
+        "group": "Core Dance Company",
+        "location": "CC & Co. Dance Complex",
+        "time": "2017 - 2023"
+      }
+    ],
+    "voice": [
+      {
+        "group": "Carrie Banfi",
+        "time": "2023 - Present"
+      }
+    ]
+  },
+  "awards": [
+    {
+      "group": "The DPAC Rising Star Awards",
+      "awards": [
+        {
+          "name": "Best Actress (Finalist)",
+          "year": "2025"
+        },
+        {
+          "name": "New York Academy Summer Scholarship",
+          "year": "2025"
+        },
+        {
+          "name": "Best Actress (Finalist)",
+          "year": "2024"
+        },
+        {
+          "name": "Best Dancer (Winner)",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "group": "International Thespian Society (State)",
+      "awards": [
+        {
+          "name": "Critic's Choice: Group Musical Theater Featured Soloist",
+          "year": "2024"
+        },
+        {
+          "name": "Superior: Solo Musical Theater",
+          "year": "2025"
+        },
+        {
+          "name": "Superior: Solo Musical Theater",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "group": "International Thespian Society (Regional)",
+      "awards": [
+        {
+          "name": "Superior: Solo Musical Theater",
+          "year": "2023"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    "Ballet": "13 years",
+    "Jazz": "11 years",
+    "Tap": "11 years",
+    "Hip-hop": "9 years",
+    "Contemporary": "5 years",
+    "Acrobatics": "8 years",
+    "Viola": "7 years",
+    "Ballroom": "5 years"
+  ]
+}
+

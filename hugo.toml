@@ -1,0 +1,22 @@
+title = 'Audrey Lewis | Actor, Singer, Dancer'
+baseURL = 'https://audrey-lewis.com/'
+languageCode = 'en-us'
+theme = 'aldc'
+
+[params]
+description = "This is the website of Audrey Lewis."
+favicon = "/favicon.ico"
+
+[[params.aldc_socials]]
+name = "instagram"
+url = "https://www.instagram.com/audrey._lewis"
+
+[[params.aldc_socials]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/audrey-lewis-9063ab383/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
