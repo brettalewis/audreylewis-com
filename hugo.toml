@@ -7,6 +7,11 @@ theme = 'aldc'
 description = "This is the website of Audrey Lewis."
 favicon = "/favicon.ico"
 
+[params.style]
+debug_mq = "true"
+
+width = "hi"
+
 [[params.aldc_socials]]
 name = "instagram"
 url = "https://www.instagram.com/audrey._lewis"

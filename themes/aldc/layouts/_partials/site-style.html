@@ -1,9 +1,29 @@
-{{ with partialCached "func/style/GetMainCSS" "style/GetMainCSS" }}
-<link rel="stylesheet" href="{{ .RelPermalink }}" >
+{{ with resources.Get "sass/main.sass" }}
+  {{ $opts := dict
+    "enableSourceMap" hugo.IsDevelopment
+    "outputStyle" (cond hugo.IsDevelopment "expanded" "compressed")
+    "targetPath" "css/main.css"
+    "transpiler" "dartsass"
+    "vars" site.Params.style
+  }}
+  {{ with . | toCSS $opts }}
+    {{ if hugo.IsDevelopment }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ else }}
+      {{ with . | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+      {{ end }}
+    {{ end }}
+  {{ end }}
 {{ end }}
+{{/* {{ with partialCached "func/style/GetMainCSS" "style/GetMainCSS" }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" >
+{{ end }} */}}
 {{ range site.Params.custom_css }}
   {{ with partialCached "func/style/GetResource" . . }}{{ else }}
     <link rel="stylesheet" href="{{ relURL (.) }}">
   {{ end }}
 {{ end }}
-
+{{ range .Resources.Match "*.css" }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}">
+{{ end }}

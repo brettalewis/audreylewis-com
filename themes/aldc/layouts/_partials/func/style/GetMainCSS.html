@@ -35,7 +35,7 @@
   {{ end }}
   {{ with $socials_rules }}
     {{ $socials_rules = delimit . "" }}
-    {{ $socials_css := $socials_rules | resources.FromString "aldc/css/generated_socials.css" }}
+    {{ $socials_css := $socials_rules | resources.FromString "css/generated_socials.css" }}
     {{ $assets_to_concat = $assets_to_concat | append $socials_css }}
   {{ end }}
 
@@ -62,7 +62,7 @@ css asset directory we (unless condition below) add to aforementioned slice */}}
 
 {{ with $assets_to_concat }}
   {{/* We proceed to concatenate the $assets_to_concat */}}
-  {{ $style := . | resources.Concat "aldc/css/main.css" }}
+  {{ $style := . | resources.Concat "css/main.css" }}
 
   {{/* We then use toCSS to add sourceMap and minify */}}
   {{ $options := dict "enableSourceMap" true "precision" 6 }}

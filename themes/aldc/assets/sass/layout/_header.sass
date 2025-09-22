@@ -1,0 +1,49 @@
+@use '../abstracts'
+@use '../vendors/mq'
+
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+header
+  background-color: abstracts.$header-color
+  margin: 0 auto
+  width: 100%
+  a
+    color: rgba(255, 255, 255, .9)
+    transition: opacity .15s ease-in;
+    @include abstracts.on-event
+      text-decoration: none
+      opacity: .5
+    
+  nav
+    display: flex
+    justify-content: space-between
+    flex-direction: column
+    align-items: center
+    padding: 1rem
+    .home-link
+      font-weight: 200
+      font-size: 1.25rem
+    ul
+      display: flex
+      justify-content: space-between
+      padding: 0
+      list-style: none
+      li
+        display: inline-block
+        padding-left: .5rem
+        padding-right: .5rem
+        font-weight: 400
+        &:first
+          margin-left: 0
+        &:last
+          margin-right: 0
+    +mq.mq($from: 'tablet', $media-type: 'screen')
+      padding: 1rem 2rem
+      flex-direction: row
+      .home-link
+        font-size: 1.5rem
+
+main
+  flex: 1
+  padding: .5rem 4rem

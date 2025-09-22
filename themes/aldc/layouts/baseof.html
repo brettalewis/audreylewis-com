@@ -1,22 +1,20 @@
 <!doctype html>
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
-<head>
-  {{ partial "head.html" .  }}
-  {{ block "head" . }}{{ partials.Include "head-additions.html" . }}{{ end }}
-  {{ block "script" . }}{{/* For Users's overwrite */}}{{ end }}
-</head>
+  <head>
+    {{ partial "head.html" .  }}
+    {{ block "head" . }}{{ partials.Include "head-additions.html" . }}{{ end }}
+    {{ block "script" . }}{{ end }}
+  </head>
 
-<body style="min-height: 100vh" class="flex flex-column ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
-
-  {{ block "header" . }}{{ partial "site-header.html" . }}{{ end }}
-  <main style="flex: 1" class="pv2 ph5" role="main">
-    {{ block "main" . }}
-      This will be replaced with content from the 
-      corresponding "define" action found in the template
-      to which this base template is applied.
-    {{ end }}
-  </main>
-  {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
-</body>
-
+  <body class="{{ $.Param "body_classes"  | default "" }}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+    {{ block "header" . }}{{ partial "site-header.html" . }}{{ end }}
+    <main role="main">
+      {{ block "main" . }}
+        This will be replaced with content from the 
+        corresponding "define" action found in the template
+        to which this base template is applied.
+      {{ end }}
+    </main>
+    {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
+  </body>
 </html>

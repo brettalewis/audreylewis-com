@@ -1,9 +1,3 @@
-{{ define "head" }}
-  {{ range .Resources.Match "*.css" }}
-    <link rel="stylesheet" href="{{ .RelPermalink }}">
-  {{ end }}
-{{ end }}
-
 {{ define "main" }}
   {{ .Content }}
 {{ end }}

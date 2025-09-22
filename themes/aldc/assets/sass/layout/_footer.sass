@@ -1,0 +1,75 @@
+@use '../abstracts'
+@use '../vendors/mq'
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+footer
+  background-color: abstracts.$header-color
+  padding: 1rem
+  width: 100%
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+  .copyright
+    padding-bottom: .5rem
+    color: #bababa
+    opacity: 1
+    transition: all .15s ease-in;
+    +abstracts.on-event
+      text-decoration: none
+      color: #fff
+      opacity: 1
+    
+  +mq.mq($from: 'tablet', $media-type: 'screen')
+    flex-direction: row
+.aldc-socials
+  a
+    color: #bababa
+    display: inline-block
+    fill: currentColor
+    vertical-align: middle
+    transition: all .15s ease-in;
+    +abstracts.on-event
+      text-decoration: none
+    .icon
+      svg
+        width: 24px
+        height: 24px
+    &.facebook:hover
+      color: #3b5998
+    &.twitter:hover
+      color: #1da1f2
+    &.instagram:hover
+      color: #e1306c
+    &.youtube:hover
+      color: #cd201f
+    &.github:hover
+      color: #6cc644
+    &.gitlab:hover
+      color: #FC6D26
+    &.keybase:hover
+      color: #3d76ff
+    &.linkedin:hover
+      color: #0077b5
+    &.medium:hover
+      color: #0077b5
+    &.mastodon:hover
+      color: #6364FF
+    &.slack:hover
+      color: #E01E5A
+    &.rss:hover
+      color: #ff6f1a
+    &.tiktok:hover
+      color: #fe2c55
+
+
+.new-window
+  opacity: 0
+  display: inline-block
+  height: 24px
+  vertical-align: top
+  svg
+    vertical-align: top
+  +abstracts.when-inside(".link-transition:hover")
+    opacity: 1

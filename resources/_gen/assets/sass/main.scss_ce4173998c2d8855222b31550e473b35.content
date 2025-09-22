@@ -1,0 +1,629 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+ * ========================================================================== */
+/**
+ * * 1. Correct the line height in all browsers.
+ * * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Sections
+ * ========================================================================== */
+/**
+ * * Remove the margin in all browsers.
+ * */
+body {
+  margin: 0;
+}
+
+/**
+ * * Render the `main` element consistently in IE.
+ * */
+main {
+  display: block;
+}
+
+/**
+ * * Correct the font size and margin on `h1` elements within `section` and
+ * * `article` contexts in Chrome, Firefox, and Safari.
+ * */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+ * ========================================================================== */
+/**
+ * * 1. Add the correct box sizing in Firefox.
+ * * 2. Show the overflow in Edge and IE.
+ * */
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+/**
+ * * 1. Correct the inheritance and scaling of font size in all browsers.
+ * * 2. Correct the odd `em` font sizing in all browsers.
+ * */
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Text-level semantics
+ * ========================================================================== */
+/**
+ * * Remove the gray background on active links in IE 10.
+ * */
+a {
+  background-color: transparent;
+}
+
+/**
+ * * 1. Remove the bottom border in Chrome 57-
+ * * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ * */
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+/**
+ * * Add the correct font weight in Chrome, Edge, and Safari.
+ * */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * * 1. Correct the inheritance and scaling of font size in all browsers.
+ * * 2. Correct the odd `em` font sizing in all browsers.
+ * */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/**
+ * * Add the correct font size in all browsers.
+ * */
+small {
+  font-size: 80%;
+}
+
+/**
+ * * Prevent `sub` and `sup` elements from affecting the line height in
+ * * all browsers.
+ * */
+sup, sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+ * ========================================================================== */
+/**
+ * * Remove the border on images inside links in IE 10.
+ * */
+img {
+  border-style: none;
+}
+
+/* Forms
+ * ========================================================================== */
+/**
+ * * 1. Change the font styles in all browsers.
+ * * 2. Remove the margin in Firefox and Safari.
+ * */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/**
+ * * Show the overflow in IE.
+ * * 1. Show the overflow in Edge.
+ * */
+button,
+input {
+  overflow: visible;
+}
+
+/**
+ * * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * * 1. Remove the inheritance of text transform in Firefox.
+ * */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * * Correct the inability to style clickable types in iOS and Safari.
+ * */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * * Remove the inner border and padding in Firefox.
+ * */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * * Restore the focus styles unset by the previous rule.
+ * */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * * Correct the padding in Firefox.
+ * */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * * 1. Correct the text wrapping in Edge and IE.
+ * * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * * 3. Remove the padding so developers are not caught out when they zero out
+ * *    `fieldset` elements in all browsers.
+ * */
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+/**
+ * * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ * */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * * Remove the default vertical scrollbar in IE 10+.
+ * */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * * 1. Add the correct box sizing in IE 10.
+ * * 2. Remove the padding in IE 10.
+ * */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/**
+ * * Correct the cursor style of increment and decrement buttons in Chrome.
+ * */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * * 1. Correct the odd appearance in Chrome and Safari.
+ * * 2. Correct the outline style in Safari.
+ * */
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+/**
+ * * Remove the inner padding in Chrome and Safari on macOS.
+ * */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * * 1. Correct the inability to style clickable types in iOS and Safari.
+ * * 2. Change font properties to `inherit` in Safari.
+ * */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+/* Interactive
+ * ========================================================================== */
+/* * Add the correct display in Edge, IE 10+, and Firefox.
+ * */
+details {
+  display: block;
+}
+
+/* * Add the correct display in all browsers.
+ * */
+summary {
+  display: list-item;
+}
+
+/* Misc
+ * ========================================================================== */
+/**
+ * * Add the correct display in IE 10+.
+ * */
+template {
+  display: none;
+}
+
+/**
+ * * Add the correct display in IE 10.
+ * */
+[hidden] {
+  display: none;
+}
+
+body:before {
+  background-color: #fcf8e3;
+  border-bottom: 1px solid #fbeed5;
+  border-left: 1px solid #fbeed5;
+  color: #c09853;
+  font: small-caption;
+  padding: 3px 6px;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+@media (min-width: 30em) {
+  body:before {
+    content: "mobile ≥ 480px (30em)";
+  }
+}
+@media (min-width: 48em) {
+  body:before {
+    content: "tablet ≥ 768px (48em)";
+  }
+}
+@media (min-width: 61.25em) {
+  body:before {
+    content: "desktop ≥ 980px (61.25em)";
+  }
+}
+@media (min-width: 81.25em) {
+  body:before {
+    content: "wide ≥ 1300px (81.25em)";
+  }
+}
+
+/**
+ * * Set up a decent box model on the root element
+ * */
+html {
+  box-sizing: border-box;
+  font: normal 100%/1 "Avenir Next", "Avenir", "Helvetica", "Arial", sans-serif;
+}
+
+/**
+ * * Make all elements from the DOM inherit from the parent box-sizing
+ * * Since `*` has a specificity of 0, it does not override the `html` value
+ * * making all elements inheriting from the root box-sizing value
+ * * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ * */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+ * * Basic styles for links
+ * */
+a {
+  color: rgb(34, 34, 34);
+  text-decoration: none;
+}
+a:hover, a:active, a:focus, a:focus-within {
+  text-decoration: underline;
+}
+
+/**
+ * * Clear inner floats
+ * */
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/**
+ * * Main content containers
+ * * 1. Make the container full-width with a maximum width
+ * * 2. Center it in the viewport
+ * * 3. Leave some space on the edges, especially valuable on small screens
+ * */
+.container {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+/**
+ * * Hide text while making it readable for screen readers
+ * * 1. Needed in WebKit-based browsers because of an implementation bug;
+ * *    See: https://code.google.com/p/chromium/issues/detail?id=457146
+ * */
+.hide-text {
+  overflow: hidden;
+  padding: 0;
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+/**
+ * * Hide element while making it readable for screen readers
+ * * Shamelessly borrowed from HTML5Boilerplate:
+ * * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+ * */
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/**
+ * * Basic typography style for copy text
+ * */
+body {
+  color: rgb(34, 34, 34);
+  background-color: rgb(244, 244, 244);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  margin: 0 auto;
+  width: 100%;
+}
+header a {
+  color: rgba(255, 255, 255, 0.9);
+  transition: opacity 0.15s ease-in;
+}
+header a:hover, header a:active, header a:focus, header a:focus-within {
+  text-decoration: none;
+  opacity: 0.5;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+header nav .home-link {
+  font-weight: 200;
+  font-size: 1.25rem;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
+header nav ul li {
+  display: inline-block;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-weight: 400;
+}
+header nav ul li:first {
+  margin-left: 0;
+}
+header nav ul li:last {
+  margin-right: 0;
+}
+@media screen and (min-width: 48em) {
+  header nav {
+    padding: 1rem 2rem;
+    flex-direction: row;
+  }
+  header nav .home-link {
+    font-size: 1.5rem;
+  }
+}
+
+main {
+  flex: 1;
+  padding: 0.5rem 4rem;
+}
+
+.headshot {
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  max-width: 48rem;
+}
+
+.role-row {
+  display: block;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+@media screen and (min-width: 61.25em) {
+  .role-row {
+    display: table;
+    padding: 0 2rem 0.5rem;
+  }
+}
+.role-row span {
+  display: block;
+}
+@media screen and (min-width: 61.25em) {
+  .role-row span {
+    display: table-cell;
+  }
+  .role-row span.show, .role-row span.role {
+    width: 40%;
+  }
+  .role-row span.org {
+    width: 20%;
+    text-align: right;
+  }
+}
+.role-row span.show {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.role-row span.org {
+  font-style: italic;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .copyright {
+  padding-bottom: 0.5rem;
+  color: #bababa;
+  opacity: 1;
+  transition: all 0.15s ease-in;
+}
+footer .copyright:hover, footer .copyright:active, footer .copyright:focus, footer .copyright:focus-within {
+  text-decoration: none;
+  color: #fff;
+  opacity: 1;
+}
+@media screen and (min-width: 48em) {
+  footer {
+    flex-direction: row;
+  }
+}
+
+.aldc-socials a {
+  color: #bababa;
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: middle;
+  transition: all 0.15s ease-in;
+}
+.aldc-socials a:hover, .aldc-socials a:active, .aldc-socials a:focus, .aldc-socials a:focus-within {
+  text-decoration: none;
+}
+.aldc-socials a .icon svg {
+  width: 24px;
+  height: 24px;
+}
+.aldc-socials a.facebook:hover {
+  color: #3b5998;
+}
+.aldc-socials a.twitter:hover {
+  color: #1da1f2;
+}
+.aldc-socials a.instagram:hover {
+  color: #e1306c;
+}
+.aldc-socials a.youtube:hover {
+  color: #cd201f;
+}
+.aldc-socials a.github:hover {
+  color: #6cc644;
+}
+.aldc-socials a.gitlab:hover {
+  color: #FC6D26;
+}
+.aldc-socials a.keybase:hover {
+  color: #3d76ff;
+}
+.aldc-socials a.linkedin:hover {
+  color: #0077b5;
+}
+.aldc-socials a.medium:hover {
+  color: #0077b5;
+}
+.aldc-socials a.mastodon:hover {
+  color: #6364FF;
+}
+.aldc-socials a.slack:hover {
+  color: #E01E5A;
+}
+.aldc-socials a.rss:hover {
+  color: #ff6f1a;
+}
+.aldc-socials a.tiktok:hover {
+  color: #fe2c55;
+}
+
+.new-window {
+  opacity: 0;
+  display: inline-block;
+  height: 24px;
+  vertical-align: top;
+}
+.new-window svg {
+  vertical-align: top;
+}
+.link-transition:hover .new-window {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=main.css.map */
