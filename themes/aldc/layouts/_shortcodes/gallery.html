@@ -2,13 +2,13 @@
 {{- $imagesName := cond (.IsNamedParams) (.Get "images") (.Get 1) -}}
 {{- $images := (index .Page.Params $imagesName) -}}
 {{- if $images -}}
-    <h2>{{ $name }}</h2>
+    <h1>{{ $name }}</h1>
     <ul class="box-container three-cols">
     {{- range $images -}}
         <li class="box show">
         <div class="inner">
             <a href="{{ replace . "image/upload/" "image/upload/c_scale,f_auto,h_700,q_auto:best/" }}" class="glightbox-{{ $name }}">
-            <img src="{{ replace . "image/upload/" "image/upload/c_auto,g_auto,h_400,w_500/" }}" alt="image" />
+            <img src="{{ replace . "image/upload/" "image/upload/c_auto,g_auto,h_200,w_250/" }}" alt="image" />
             </a>
         </div>
         </li>
