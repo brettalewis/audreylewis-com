@@ -1,5 +1,4 @@
 ---
-omit_header_text: true
 menus:
   main:
     name: 'Media'

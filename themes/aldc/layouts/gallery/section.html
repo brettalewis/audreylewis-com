@@ -1,9 +1,0 @@
-{{ define "main" }}
-  {{ .Content }}
-{{ end }}
-
-{{ define "script" }}
-  {{ range .Resources.Match "*.js" }}
-    <script src="{{ .RelPermalink }}"></script>
-  {{ end }}
-{{ end }}
