@@ -15,11 +15,9 @@
 
 {{/* We prepare a slice of resources to be concatenated as one */}}
 {{ $assets_to_concat := slice }}
-{{/* We add locale css files to the slice in the proper order */}}
-{{ range slice "_tachyons.css" "_code.css" "_hugo-internal-templates.css" "_social-icons.css" "_styles.css" }}
-  {{ with partialCached "func/style/GetResource" . . }}
-    {{ $assets_to_concat = $assets_to_concat | append . }}
-  {{ end }}
+{{ with resources.Get "sass/main.sass" }}
+  {{ $opts := dict "transpiler" "dartsass" }}
+  {{ $assets_to_concat = $assets_to_concat | append (. | css.Sass $opts) }}
 {{ end }}
 
 {{ with partialCached "func/socials/Get" "socials/Get" }}
@@ -65,11 +63,15 @@ css asset directory we (unless condition below) add to aforementioned slice */}}
   {{ $style := . | resources.Concat "css/main.css" }}
 
   {{/* We then use toCSS to add sourceMap and minify */}}
-  {{ $options := dict "enableSourceMap" true "precision" 6 }}
-  {{ $style = $style | css.Sass $options | minify }}
+  {{ $options := dict 
+    "enableSourceMap" hugo.IsDevelopment 
+    "precision" 6 
+    "outputStyle" (cond hugo.IsDevelopment "expanded" "compressed")
+  }}
+  {{ $style = $style | css.Sass $options }}
   {{/* We fingerprint in production for cache busting purposes */}}
   {{ if eq (getenv "HUGO_ENV") "production" }}
-    {{ $style = $style | fingerprint }}
+    {{ $style = $style | minify | fingerprint }}
   {{ end }}
   {{/* We're ready to set returning variable with resulting resource */}}
   {{ $main_style = $style }}
