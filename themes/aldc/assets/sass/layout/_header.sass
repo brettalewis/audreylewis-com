@@ -1,6 +1,18 @@
 @use '../abstracts'
 @use '../vendors/mq'
 
+%nav-list
+  ul
+    list-style-type: none
+    display: flex
+    gap: 1rem
+    justify-content: space-between
+    padding: 0
+    list-style: none
+    li
+      font-weight: 400
+
+
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
@@ -16,6 +28,7 @@ header
       opacity: .5
     
   nav
+    @extend %nav-list
     display: flex
     justify-content: space-between
     flex-direction: column
@@ -24,20 +37,6 @@ header
     .home-link
       font-weight: 200
       font-size: 1.25rem
-    ul
-      display: flex
-      justify-content: space-between
-      padding: 0
-      list-style: none
-      li
-        display: inline-block
-        padding-left: .5rem
-        padding-right: .5rem
-        font-weight: 400
-        &:first
-          margin-left: 0
-        &:last
-          margin-right: 0
     +mq.mq($from: 'tablet', $media-type: 'screen')
       padding: 1rem 2rem
       flex-direction: row

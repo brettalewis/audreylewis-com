@@ -1,12 +1,15 @@
 {{- $endpoint := cond (.IsNamedParams) (.Get "endpoint") (.Get 0) -}}
 
 {{- /* Render. */}}
+<div>
+<div id="my-form-status" style="text-align: center;height: 4rem; padding: 2rem 0"></div>
 <form
   action="https://formspree.io/f/{{ $endpoint }}"
   class="fs-form"
   id="my-form"
   target="_top"
   method="POST"
+  style="vertical-align: center;"
 >
   <div class="fs-field">
     <label class="fs-label" for="name">Your Name</label>
@@ -33,4 +36,4 @@
     <button class="fs-button" type="submit" onsubmit="return false">Submit</button>
   </div>
 </form>
-<div id="my-form-status"></div>
+</div>
