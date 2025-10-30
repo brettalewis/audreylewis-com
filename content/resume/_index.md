@@ -8,6 +8,7 @@ menus:
 
 ## Theatre
 
+{{< role show="Much Ado About Nothing" role="Hero" org="Broughton High School" >}}
 {{< role show="Jesus Christ Superstar" role="Simon Zealotes/Superfan" org="Theatre Raleigh ACT" >}}
 {{< role show="Mamma Mia!" role="Donna Sheridan" org="Broughton High School" >}}
 {{< role show="Oklahoma!" role="Dance Captain/Dream Laurey/Ensemble" org="Raleigh ACT" >}}

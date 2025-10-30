@@ -51,8 +51,6 @@ $copy-text-color: rgb(34, 34, 34) !default
 /// @type Color
 $heading-text-color: rgb(34, 34, 34) !default
 
-
-
 /// Background color
 /// @type Color
 $background-color: $light-grey !default
@@ -73,13 +71,17 @@ $success-color: $green !default
 /// @type Color
 $failure-color: $red !default
 
+$border-active-color: #da7105 !default
+$border-default-color: #d1d1d1 !default
+$highlight-color: #fdcf4c !default
+$primary-color: #b64e08 !default
+$primary-active-color: #79320e !default
+$text-default-color: $copy-text-color !default
+$text-muted-color: #4f4f4f !default
+
 /// Container's maximum width
 /// @type Length
 $max-width: 1180px !default
-
-
-
-
 
 /// Breakpoints map
 /// @prop {String} keys - Keys are identifiers mapped to a given length
@@ -90,10 +92,6 @@ $breakpoints: (
   desktop: 980px,
   wide: 1300px,
 )
-
-
-
-
 
 /// Relative or absolute URL where all assets are served from
 /// @type String
