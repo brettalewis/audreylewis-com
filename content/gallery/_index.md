@@ -8,6 +8,8 @@ danceImages:
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758407788/dance_1.jpg
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758407952/dance_3.jpg
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758408074/dance_2.jpg
+  - //res.cloudinary.com/db2kg6drb/image/upload/v1762398418/dance_4.jpg
+  - //res.cloudinary.com/db2kg6drb/image/upload/v1762398418/dance_5.jpg
 theatreImages:
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758411022/jcs_1.jpg
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758411024/jcs_2.jpg
