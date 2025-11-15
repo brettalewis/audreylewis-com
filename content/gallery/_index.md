@@ -15,9 +15,14 @@ theatreImages:
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758411024/jcs_2.jpg
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758411021/sweeney_1.jpg
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758411023/sweeney_2.jpg
+  - //res.cloudinary.com/db2kg6drb/image/upload/v1763238070/oklahoma_1.jpg
+  - //res.cloudinary.com/db2kg6drb/image/upload/v1763238070/oklahoma_2.jpg
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758408500/9to5_1.jpg
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758408503/9to5_2.jpg
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758408500/9to5_3.jpg
+  - //res.cloudinary.com/db2kg6drb/image/upload/v1763238028/rotten_1.jpg
+  - //res.cloudinary.com/db2kg6drb/image/upload/v1763238028/rotten_2.jpg
+  - //res.cloudinary.com/db2kg6drb/image/upload/v1763238028/rotten_3.jpg
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758408500/six_1.jpg
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758408499/six_2.jpg
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758408502/six_3.jpg
