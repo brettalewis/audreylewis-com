@@ -28,7 +28,7 @@
                 {{- end -}}
             {{- end -}}
             <li class="box show">
-                <a href="{{ .url }}" class="glightbox-{{ $name }}"{{ with .title }} data-title="{{ . }}"{{ end }}{{ with .description }} data-description="{{ . }}"{{ end }}>
+                <a href="{{ .url }}" class="glightbox-{{ urlize $name }}"{{ with .title }} data-title="{{ . }}"{{ end }}{{ with .description }} data-description="{{ . }}"{{ end }}>
                     <figure>
                         <img src="{{ $thumbnail }}" alt="{{ with .title }}{{.}}{{else}}image{{end}}" />
                         <figcaption>{{.title}}</figcaption>
@@ -41,7 +41,7 @@
 
     <script>
     window.onload = GLightbox({
-        selector: '.glightbox-{{ $name }}',
+        selector: '.glightbox-{{ urlize $name }}',
         loop: true
     });
     </script>
