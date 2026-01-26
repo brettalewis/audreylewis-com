@@ -11,6 +11,8 @@ danceImages:
   - //res.cloudinary.com/db2kg6drb/image/upload/v1762398418/dance_4.jpg
   - //res.cloudinary.com/db2kg6drb/image/upload/v1762398418/dance_5.jpg
 theatreImages:
+  - //res.cloudinary.com/db2kg6drb/image/upload/v1769373650/ouaomt_2.jpg
+  - //res.cloudinary.com/db2kg6drb/image/upload/v1769372866/ouaomt_1.jpg
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758411022/jcs_1.jpg
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758411024/jcs_2.jpg
   - //res.cloudinary.com/db2kg6drb/image/upload/v1758411021/sweeney_1.jpg

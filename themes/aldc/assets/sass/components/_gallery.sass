@@ -10,11 +10,13 @@
   list-style-type: none
   width: 200px
   opacity: 0
-  transform: translate3d(0, 40px, 0)
+  &.moving
+    transform: translate3d(0, 40px, 0)
   transition: opacity 0.2s, transform 0.35s
   &.show
     opacity: 1
-    transform: translate3d(0, 0, 0)
+    &.moving
+      transform: translate3d(0, 0, 0)
     transition: opacity 0.4s, transform 0.35s
   .inner
     padding: 10px
@@ -37,11 +39,23 @@
       z-index: 99
       opacity: 0
       transition: opacity 0.4s
-  img
+  &.moving img
     width: calc(100% + 50px)
     max-width: calc(100% + 50px)
     transition: opacity 0.35s, transform 0.35s
     transform: translate3d(-40px, 0, 0)
+  figure
+    display: flex
+    flex-direction: column
+    padding: 0
+    margin: 5px
+  figcaption
+    background-color: #222222
+    color: white
+    font: italic smaller sans-serif
+    padding: 3px
+    text-align: center
+
 
 // @media (min-width: 390px)
 //  .three-cols
@@ -70,12 +84,11 @@
   .mcbutton
     width: auto
 
-@media (min-width: 992px)
-  .box
-    &:hover
-      img
-        transform: translate3d(0, 0, 0)
-        transition: opacity 0.35s, transform 0.35s
-      a::before
-        opacity: 0.2
-        transition: opacity 0.35s
+.box
+  &:hover
+    img
+      transform: translate3d(0, 0, 0)
+      transition: opacity 0.35s, transform 0.35s
+    a::before
+      opacity: 0.2
+      transition: opacity 0.35s
