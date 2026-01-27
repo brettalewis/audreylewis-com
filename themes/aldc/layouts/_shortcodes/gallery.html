@@ -10,8 +10,8 @@
         {{- range $images -}}
             <li class="box show moving">
             <div class="inner">
-                <a href="{{ replace . "image/upload/" "image/upload/c_scale,f_auto,h_700,q_auto:best/" }}" class="glightbox-{{ $name }}">
-                <img src="{{ replace . "image/upload/" "image/upload/c_auto,g_auto,h_200,w_250/" }}" alt="image" />
+                <a href="{{ replace .image "image/upload/" "image/upload/c_scale,f_auto,h_700,q_auto:best/" }}" class="glightbox-{{ urlize $name }}"{{ with .title }} data-title="{{ . }}"{{ end }}{{ with .description }} data-description="{{ . }}"{{ end }}>
+                <img src="{{ replace .image "image/upload/" "image/upload/c_auto,g_auto,h_200,w_250/" }}" alt="image" />
                 </a>
             </div>
             </li>
