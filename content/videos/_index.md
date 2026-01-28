@@ -40,6 +40,11 @@ choreoVideos:
     thumbnail: //i.vimeocdn.com/video/2112203936-1ac73cfbdfc0f2981e7a0570bec1cf77a055a217740f0ca751e028eb6dac3175-d_640x360?&region=us
     title: "Something Rotten!"
     description: "A dance break in the song 'It's A Musical' from Something Rotten."
+  - params:
+    url: //vimeo.com/1159059082
+    thumbnail: //i.vimeocdn.com/video/2113298031-3ed5a89a78463ef47a60ba058cb70afbfe5fc7c0972dcc8ed238d1af265877bc-d_640x360?&region=us
+    title: 'T8'
+    description: "Hip-hop routine choreographed by Audrey Lewis, Lexie Sawvel, Carly Ritter, & Catherine Missie."
 ---
 
 {{< gallery name="Performance" videos="performVideos" >}}
