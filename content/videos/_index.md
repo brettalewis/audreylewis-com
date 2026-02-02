@@ -31,6 +31,11 @@ choreoVideos:
     title: "To A Flame"
     description: "Choreographed by Audrey Lewis, performed at In Good Company 2025"
   - params:
+    url: //vimeo.com/1160885706
+    thumbnail: //i.vimeocdn.com/video/2116043873-b85ecfff40b2decef9ded89e75d76d0724e5089ba93c64a258655b986460271b-d_640x360?&region=us
+    title: "Lack of Communication"
+    description: "Choreographed by Audrey Lewis, performed at In Good Company 2024"
+  - params:
     url: //vimeo.com/1158234160
     thumbnail: //i.vimeocdn.com/video/2112196857-4ad05dae2e5a9ab2711f117d14bd86a2b9811042bbb39f2c76d071edcc063c11-d_640x360?&region=us
     title: "Dream Ballet"
