@@ -87,8 +87,6 @@ danceImages:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1758407952/dance_3.jpg
   - params:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1758408074/dance_2.jpg
-  - params: 
-    image: //res.cloudinary.com/db2kg6drb/image/upload/v1762398418/dance_4.jpg
   - params:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1762398418/dance_5.jpg
 theatreImages:
