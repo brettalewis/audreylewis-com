@@ -6,6 +6,82 @@ menus:
     weight: 30
 danceImages:
   - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159990/force_1.jpg'
+    title: 'BDD In Good Company: Force'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159991/stand_1.jpg'
+    title: 'BDD Spring Concert: Stand'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159992/stand_2.jpg'
+    title: 'BDD Spring Concert: Stand'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770160617/stand_3.jpg'
+    title: 'BDD Spring Concert: Stand'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159990/synergy_1.jpg'
+    title: 'BDD In Good Company: Synergy'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159991/synergy_2.jpg'
+    title: 'BDD In Good Company: Synergy'
+    description: 'Photo by Marc Ridel Photography'
+  - params: 
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159992/synergy_3.jpg'
+    title: 'BDD In Good Company: Synergy'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159993/synergy_4.jpg'
+    title: 'BDD In Good Company: Synergy'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159993/synergy_5.jpg'
+    title: 'BDD In Good Company: Synergy'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770160623/synergy_6.jpg'
+    title: 'BDD In Good Company: Synergy'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770160628/synergy_7.jpg'
+    title: 'BDD In Good Company: Synergy'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770160634/synergy_8.jpg'
+    title: 'BDD In Good Company: Synergy'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770160647/synergy_9.jpg'
+    title: 'BDD In Good Company: Synergy'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159992/reveal_1.jpg'
+    title: 'BDD In Good Company: Reveal'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159993/reveal_2.jpg'
+    title: 'BDD In Good Company: Reveal'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159993/reveal_3.jpg'
+    title: 'BDD In Good Company: Reveal'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159993/reveal_4.jpg'
+    title: 'BDD In Good Company: Reveal'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159994/reveal_5.jpg'
+    title: 'BDD In Good Company: Reveal'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159994/reveal_6.jpg'
+    title: 'BDD In Good Company: Reveal'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1758407788/dance_1.jpg
   - params:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1758407952/dance_3.jpg
@@ -19,11 +95,27 @@ theatreImages:
   - params:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1769373650/ouaomt_2.jpg
     title: Once Upon A One More Time Jr. Edition
-    description: Taken by Captured in Time Photography
+    description: Photo by Captured in Time Photography
   - params:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1769372866/ouaomt_1.jpg
     title: Once Upon A One More Time Jr. Edition
-    description: Taken by Melissa Rakolta
+    description: Photo by Melissa Rakolta
+  - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1770159988/mammamia_1.jpg
+    title: Mamma Mia!
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1770159989/mammamia_2.jpg
+    title: Mamma Mia!
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1770159991/mammamia_3.jpg
+    title: Mamma Mia!
+    description: 'Photo by Marc Ridel Photography'
+  - params: 
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1770159990/mammamia_4.jpg
+    title: Mamma Mia!
+    description: 'Photo by Marc Ridel Photography'
   - params:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1758411022/jcs_1.jpg
     title: Jesus Christ Superstar
