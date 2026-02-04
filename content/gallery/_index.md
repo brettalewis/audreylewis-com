@@ -172,6 +172,8 @@ theatreImages:
     title: "Heathers: The Musical"
 extraImages:
   - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1770221162/headshot_3.jpg
+  - params:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1758427281/dpac_1.jpg
   - params:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1758427543/dpac_2.jpg
