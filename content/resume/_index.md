@@ -4,6 +4,9 @@ menus:
   main:
     name: 'Resume'
     weight: 20
+photo: '//res.cloudinary.com/db2kg6drb/image/upload/f_auto/q_auto/c_scale,w_0.5/headshot_3'
+body_classes: 'two-column flex-rev'
+layout: two-column
 ---
 
 ## Theatre
@@ -27,10 +30,8 @@ menus:
 {{< role show="Much Ado About Nothing" role="Hero" org="Capital Acting Company" location="Diane Payne Auditorium" director="William Houck" >}}
 {{< role show="The Crucible" role="Abigail Williams" org="Capital Acting Company" location="Diane Payne Auditorium" director="Andrew Wade" >}}
 
-
 ## Dance Styles
 Ballet, Jazz, Tap, Hip-hop, Ballroom, Contemporary, Lyrical, Modern, Musical Theatre, Heels, Pointe
-
 
 ## Special Skills
 Right Aerial (in wedges), Chest Stand, Shoulder Stand, Head Stand, Video Editing, Graphic Design, Music Editing, Makeup Skills, Roller Skate, Read Music, Can Harmonize, Viola, Southern Accent, Dance Captain, Can Perform “Cup Song” Routine & “Rap God” Rap, Basic Crochet Knowledge, Member of ITS, NHSDA, & Tri-M Honor Society, Has driver’s license & US passport
