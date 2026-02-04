@@ -62,6 +62,10 @@ danceImages:
     title: 'BDD In Good Company: Reveal'
     description: 'Photo by Marc Ridel Photography'
   - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1762398418/dance_5.jpg
+    title: 'BDD In Good Company: Reveal'
+    description: 'Photo by Marc Ridel Photography'
+  - params:
     image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159993/reveal_2.jpg'
     title: 'BDD In Good Company: Reveal'
     description: 'Photo by Marc Ridel Photography'
@@ -87,8 +91,6 @@ danceImages:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1758407952/dance_3.jpg
   - params:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1758408074/dance_2.jpg
-  - params:
-    image: //res.cloudinary.com/db2kg6drb/image/upload/v1762398418/dance_5.jpg
 theatreImages:
   - params:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1769373650/ouaomt_2.jpg
