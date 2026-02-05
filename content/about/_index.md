@@ -3,8 +3,7 @@ menus:
   main:
     name: 'About'
     weight: 10
-photo: '/headshot2'
-alt: 'Audrey Lewis Headshot'
+photo: '//res.cloudinary.com/db2kg6drb/image/upload/f_auto/q_auto/c_scale,w_0.5/headshot2'
 body_classes: 'two-column'
 layout: two-column
 ---

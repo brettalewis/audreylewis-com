@@ -3,8 +3,7 @@ menus:
   main:
     name: 'Contact'
     weight: 50
-photo: '/headshot_4'
-alt: 'Audrey Lewis Headshot'
+photo: '//res.cloudinary.com/db2kg6drb/image/upload/f_auto/q_auto/c_scale,w_0.5/headshot_4'
 body_classes: 'two-column flex-rev'
 layout: two-column
 ---

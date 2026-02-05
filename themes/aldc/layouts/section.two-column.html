@@ -1,12 +1,6 @@
 {{ define "main" }}
-{{ $imgInfo := dict
-  "url" $.Site.Params.cld.url
-  "xform" $.Site.Params.cld.xform
-  "image" .Params.photo
-  "alt" .Params.alt
-}}
   <section class="photo">
-    {{ partial "cld-img.html" $imgInfo }}
+    <img src="{{ .Params.photo }}" />
   </section>
   <section class="bio">
     {{ .Content }}  

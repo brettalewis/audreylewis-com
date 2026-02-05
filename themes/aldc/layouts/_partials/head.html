@@ -3,8 +3,6 @@
   <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
   {{ partial "site-style.html" . }}
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
-  <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
-
 
   {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
   {{ $production := eq (getenv "HUGO_ENV") "production" | or (eq site.Params.env "production") }}
