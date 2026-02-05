@@ -1,0 +1,5 @@
+{{ $image := .Get 0 }}
+{{ $alt := .Get 1 }}
+{{ $width := .Get 2 | default "w_auto" }}
+{{ $style := .Get 3 | default "width:90%" }}
+<img alt="{{ $alt }}" title="{{ $alt }}" data-src="{{ $.Site.Params.cld.url }}/{{ $width }},c_scale,f_auto,q_auto,dpr_auto{{ $image }}" class="cld-responsive" style="{{ $style }}">

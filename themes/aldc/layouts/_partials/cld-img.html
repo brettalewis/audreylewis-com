@@ -1,0 +1,6 @@
+{{ $image := .image }}
+{{ $alt := .alt }}
+{{ $width := .width | default "w_auto" }}
+{{ $style := .style | default "width:90%" }}
+{{ $xform := .xform | default "c_scale,f_auto,q_auto,dpr_auto" }}
+<img alt="{{ $alt }}" title="{{ $alt }}" data-src="{{ .url }}/{{ $width }},{{ $xform }}{{ $image }}" class="cld-responsive" style="{{ $style }}">

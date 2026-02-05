@@ -7,6 +7,10 @@ theme = 'aldc'
 description = "This is the website of Audrey Lewis."
 favicon = "/favicon.ico"
 
+[params.cld]
+url = "https://res.cloudinary.com/db2kg6drb/image/upload/"
+xform = "c_scale,f_auto,q_auto,dpr_auto"
+
 [[params.aldc_socials]]
 name = "instagram"
 url = "https://www.instagram.com/audrey._lewis"
