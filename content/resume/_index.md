@@ -5,6 +5,7 @@ menus:
     name: 'Resume'
     weight: 20
 photo: '//res.cloudinary.com/db2kg6drb/image/upload/f_auto/q_auto/c_scale,w_0.5/headshot_3'
+alt: 'Audrey Lewis Headshot'
 body_classes: 'two-column flex-rev'
 layout: two-column
 ---
