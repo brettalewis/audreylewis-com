@@ -161,6 +161,9 @@ theatreImages:
   - params: 
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1758408502/six_3.jpg
     title: "Six: Teen Edition"
+  - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1770867423/heathers_4.jpg
+    title: "Heathers: The Musical"
   - params: 
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1758408899/heathers_1.jpg
     title: "Heathers: The Musical"
@@ -175,6 +178,8 @@ extraImages:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1758427281/dpac_1.jpg
   - params:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1758427543/dpac_2.jpg
+  - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1770867763/dpac_3.jpg
 ---
 
 {{< gallery name="Theatre" images="theatreImages" >}}
