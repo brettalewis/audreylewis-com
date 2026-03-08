@@ -5,6 +5,11 @@ menus:
     weight: 40
 performVideos:
   - params:
+    url: //vimeo.com/1171423865
+    thumbnail: //i.vimeocdn.com/video/2130923332-9d3421439d4af9ccd00c155d98d02d3e10153cc278ca9a3df9766c97a030d8b8-d_640x360?&region=us
+    title: "Let It Go"
+    description: "Audrey Lewis performs 'Let It Go' from Frozen: The Musical."
+  - params:
     url: //vimeo.com/1158020400
     thumbnail: //i.vimeocdn.com/video/2111916005-ebe0396550f1b203fbee7d432adcf3baa6122f45e792ce3ae3b83708dfaf4116-d_640x360?&region=us
     title: "The Winner Takes It All"
@@ -40,6 +45,17 @@ choreoVideos:
     thumbnail: //i.vimeocdn.com/video/2112196857-4ad05dae2e5a9ab2711f117d14bd86a2b9811042bbb39f2c76d071edcc063c11-d_640x360?&region=us
     title: "Dream Ballet"
     description: "The Dream Ballet scene from Oklahoma!"
+  - params:
+    url: //vimeo.com/1158239464
+    thumbnail: //i.vimeocdn.com/video/2112203936-1ac73cfbdfc0f2981e7a0570bec1cf77a055a217740f0ca751e028eb6dac3175-d_640x360?&region=us
+    title: "Something Rotten!"
+    description: "A dance break in the song 'It's A Musical' from Something Rotten."
+  - params:
+    url: //vimeo.com/1171423991
+    thumbnail: //i.vimeocdn.com/video/2130923118-79060d3fc5b2349c79be0653ff86f3a38051056079ad53a07ed56ca5305dea7e-d_640x360?&region=us
+    title: 'T8'
+    description: "Hip-hop routine choreographed by Audrey Lewis, Lexie Sawvel, Carly Ritter, & Catherine Missie."
+
 ---
 
 {{< gallery name="Performance" videos="performVideos" >}}
