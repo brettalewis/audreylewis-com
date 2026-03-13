@@ -93,6 +93,22 @@ danceImages:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1758408074/dance_2.jpg
 theatreImages:
   - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1773425171/frozen_1.jpg
+    title: "Frozen: The Musical"
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1773425169/frozen_2.jpg
+    title: "Frozen: The Musical"
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1773425173/frozen_3.jpg
+    title: "Frozen: The Musical"
+    description: 'Photo by Marc Ridel Photography'
+  - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1773425177/frozen_4.jpg
+    title: "Frozen: The Musical"
+    description: 'Photo by Marc Ridel Photography'
+  - params:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1769373650/ouaomt_2.jpg
     title: Once Upon A One More Time Jr. Edition
     description: Photo by Captured in Time Photography
