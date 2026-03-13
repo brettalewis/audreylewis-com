@@ -97,10 +97,6 @@ theatreImages:
     title: "Frozen: The Musical"
     description: 'Photo by Marc Ridel Photography'
   - params:
-    image: //res.cloudinary.com/db2kg6drb/image/upload/v1773425169/frozen_2.jpg
-    title: "Frozen: The Musical"
-    description: 'Photo by Marc Ridel Photography'
-  - params:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1773425173/frozen_3.jpg
     title: "Frozen: The Musical"
     description: 'Photo by Marc Ridel Photography'
