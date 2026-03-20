@@ -6,6 +6,10 @@ menus:
     weight: 30
 danceImages:
   - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1774016149/ads_1.jpg
+    title: 'BDD 2026 Advanced Dance Showcase'
+    description: 'Photo by Willow Goble'
+  - params:
     image: '//res.cloudinary.com/db2kg6drb/image/upload/v1770159990/force_1.jpg'
     title: 'BDD In Good Company: Force'
     description: 'Photo by Marc Ridel Photography'
