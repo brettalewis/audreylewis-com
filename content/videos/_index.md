@@ -5,10 +5,10 @@ menus:
     weight: 40
 performVideos:
   - params:
-    url: //vimeo.com/1171423865
-    thumbnail: //i.vimeocdn.com/video/2130923332-9d3421439d4af9ccd00c155d98d02d3e10153cc278ca9a3df9766c97a030d8b8-d_640x360?&region=us
-    title: "Let It Go"
-    description: "Audrey Lewis performs 'Let It Go' from Frozen: The Musical."
+    url: //vimeo.com/1175982668
+    thumbnail: //i.vimeocdn.com/video/2136938066-e4efa0fe3f6cb1502440bc0fb01dc1148fc18235f79510d2509cabb0c3cba9f8-d_640x360?&region=us
+    title: "Monster"
+    description: "Audrey Lewis performs 'Monster' from Frozen: The Musical."
   - params:
     url: //vimeo.com/1158020400
     thumbnail: //i.vimeocdn.com/video/2111916005-ebe0396550f1b203fbee7d432adcf3baa6122f45e792ce3ae3b83708dfaf4116-d_640x360?&region=us
