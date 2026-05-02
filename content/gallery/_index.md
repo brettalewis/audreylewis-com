@@ -97,6 +97,30 @@ danceImages:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1758408074/dance_2.jpg
 theatreImages:
   - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1777761594/cyclone_1.jpg
+    title: "Ride the Cyclone"
+    description: 'Photo by Bianca Thompson'
+  - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1777761595/cyclone_2.jpg
+    title: "Ride the Cyclone"
+    description: 'Photo by Bianca Thompson'
+  - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1777761595/cyclone_3.jpg
+    title: "Ride the Cyclone"
+    description: 'Photo by Bianca Thompson'
+  - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1777761594/cyclone_4.jpg
+    title: "Ride the Cyclone"
+    description: 'Photo by Bianca Thompson'
+  - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1777761594/cyclone_5.jpg
+    title: "Ride the Cyclone"
+    description: 'Photo by Bianca Thompson'
+  - params:
+    image: //res.cloudinary.com/db2kg6drb/image/upload/v1777761596/cyclone_6.jpg
+    title: "Ride the Cyclone"
+    description: 'Photo by Bianca Thompson'
+  - params:
     image: //res.cloudinary.com/db2kg6drb/image/upload/v1773425171/frozen_1.jpg
     title: "Frozen: The Musical"
     description: 'Photo by Marc Ridel Photography'
