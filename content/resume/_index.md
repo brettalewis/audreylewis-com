@@ -13,6 +13,7 @@ layout: two-column
 ## Theatre
 
 ### Musicals
+{{< role show="Bring It On: The Musical" role="Rich Girl 1/Ensemble/Skylar (Understudy)" org="FSU School of Theatre" director="Natalie Wisdom" musicdir="Michael Norris" choreo="Kari Twyman Walker" location="Richard G. Fallon Theatre" >}}
 {{< role show="Ride the Cyclone" role="Ocean" org="Theatre Raleigh ACT" director="Blaire Thompson" musicdir="Lauren Thompkins" choreo="Tim Malboeuf" >}}
 {{< role show="Frozen: The Musical" role="Elsa" org="Capital Acting Company" location="Diane Payne Auditorium" director="William Houck" musicdir="Clay Michalec" choreo="Betsy Graves" >}}
 {{< role show="Once Upon A One More Time Jr." role="Sleeping Beauty" org="Theatre Raleigh ACT, New Works Showcase, Junior Theatre Festival" location="Junior Theatre Festival 2026 New Works Showcase" director="Blaire Thompson" musicdir="Lauren Thompkins" choreo="Tim Malboeuf" >}}
